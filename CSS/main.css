@@ -1,0 +1,117 @@
+header {
+  background-color: #1e202b;
+}
+
+nav {
+  width: 100%;
+}
+.logo img {
+  width: 60px;
+  height: 40px;
+}
+
+.site-description {
+  font-size: 10px;
+}
+ul {
+  list-style: none;
+}
+li {
+  color: white;
+  margin: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.active {
+  color: #138ed8;
+  border: 2px #09c solid;
+}
+li:hover {
+  color: #138ed8;
+  border: 2px #09c solid;
+  transition: all 0.2s;
+}
+.num {
+  font-size: 90px;
+  color: white;
+  font-weight: bolder;
+  padding-left: 20px;
+}
+.day {
+  width: 100%;
+  color: rgb(149, 149, 149);
+  padding: 10px 20px;
+}
+.card-content {
+  background-color: #323544;
+}
+.card-content-2 {
+  background-color: #262934;
+}
+.h-90 {
+  height: 90%;
+}
+.w-10 {
+  width: 10%;
+}
+.w-90 {
+  width: 90%;
+}
+.location {
+  color: rgb(149, 149, 149);
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.condition {
+  color: #099ad8;
+}
+
+.my-border {
+  border-radius: 10px 0 10px 0;
+  background-color: #2d303d;
+}
+.col-4 {
+  background-color: #2d303d;
+}
+input {
+  background-color: #1e202b;
+  border: 0;
+  color: white;
+}
+button {
+  background-color: #009ad8;
+  color: white;
+  border: 0;
+}
+section {
+  background-image: url(../images/banner.png);
+}
+footer {
+  background-color: #262936;
+  padding: 35px 20px;
+}
+i {
+  font-size: 30px;
+  transition: all 0.4s;
+}
+i:hover {
+  color: cyan;
+  transition: all 0.4s;
+}
+
+.last-location {
+  color: rgb(149, 149, 149);
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+sup {
+  font-size: 90px;
+  color: white;
+  font-weight: bolder;
+  padding-left: 20px;
+}
+.f-50 {
+  font-size: 50px;
+}

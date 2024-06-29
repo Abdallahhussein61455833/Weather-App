@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+  <body>
+    <header class="p-4">
+      <div class="container">
+        <nav class="d-flex align-items-center justify-content-between">
+          <div class="logo d-flex align-items-center">
+            <img src="images/logo.png" alt="logo" />
+            <div class="logo-type p-3">
+              <h1 class="h6 text-white p-0 m-0 fw-bold">Weather</h1>
+              <span class="site-description text-white">tagline goes here</span>
+            </div>
+          </div>
+          <div class="links">
+            <ul class="d-flex">
+              <li class="px-3 active">Home</li>
+              <li class="px-3">News</li>
+              <li class="px-3">Live Cameras</li>
+              <li class="px-3">Photos</li>
+              <li class="px-3">Contacts</li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="input-group justify-content-between d-flex my-5">
+          <input
+            class="myinput w-90 rounded-5 py-3 px-4"
+            type="text"
+            placeholder="Find Your Location..."
+          /><button class="mybtn w-10 rounded-5">Find</button>
+        </div>
+        <div class="row">
+          <div class="col-4 p-0 my-border">
+            <div class="day d-flex justify-content-between">
+              <span class="current">DD/MM/YYYY</span>
+            </div>
+            <div class="card-content">
+              <div class="location">City</div>
+              <span id="num-1" class="num">---</span>
+              <sup>o</sup> <span class="num">C</span>
+              <div class="text-center text-white night-temp-0 f-50">--</div>
+              <div class="time text-center">
+                <img
+                  id="current-icon"
+                  src="images/sun.png"
+                  alt="sun"
+                  width="90"
+                />
+
+                <div id="current-condition" class="condition my-2">
+                  Weather Condition..
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 p-0">
+            <div class="day d-flex justify-content-between">
+              <span class="next">DD/MM/YYYY</span>
+            </div>
+            <div class="card-content-2 h-90">
+              <div class="location">City</div>
+              <span id="num-2" class="num">---</span>
+              <sup>o</sup> <span class="num">C</span>
+              <div class="text-center text-white night-temp-1 f-50">--</div>
+
+              <div class="time text-center">
+                <img id="new-icon" src="images/sun.png" alt="sun" width="90" />
+                <div id="next-condition" class="condition my-2">
+                  <span>Weather Condition..</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 p-0">
+            <div class="day d-flex justify-content-between">
+              <span class="later">DD/MM/YYYY</span>
+            </div>
+            <div class="card-content h-90">
+              <div class="last-location">City</div>
+              <span id="num-3" class="num">---</span>
+              <sup>o</sup> <span class="num">C</span>
+              <div class="text-center text-white night-temp-2 f-50">--</div>
+              <div class="time text-center">
+                <img
+                  id="later-icon"
+                  src="images/sun.png"
+                  alt="sun"
+                  width="90"
+                />
+                <div id="later-condition" class="condition my-2">
+                  <span>Weather Condition..</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="d-flex justify-content-between py-3 align-items-center">
+          <div class="footer-input d-flex w-50">
+            <input
+              class="w-100 rounded-5 py-3 px-4"
+              type="text"
+              placeholder="Enter your email to subscribe..."
+            />
+            <button class="rounded-5 px-3">Subscribe</button>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook px-4"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter px-4"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus px-4"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest px-4"></i></a>
+          </div>
+        </div>
+        <p class="colophon text-white m-0">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>
